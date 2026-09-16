@@ -5,8 +5,7 @@
 :root {
   --color-button-primary-bg: #eb3225;
   --color-button-primary-text: #000000;
+  --radius-button-default: 500px;
   --spacing-button-padding-x: 32px;
-  --spacing-button-padding-y: 8px;
-  --spacing-button-gap: 8px;
-  --radiubuttons-: 500px;
+  --spacing-button-padding-y: 12px;
 }
