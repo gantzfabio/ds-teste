@@ -1,49 +1,20 @@
-.storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: var(--radius-button-default, 4px);
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
   cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-  transition: all 0.2s ease-in-out;
+  font-family: inherit;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+
+  /* Consumo das variáveis geradas da imagem */
+  background-color: var(--color-button-primary-bg);
+  color: var(--color-button-primary-text);
+  border-radius: var(--radius-button-default);
+  padding: var(--spacing-button-padding-y) var(--spacing-button-padding-x);
 }
 
-.storybook-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.storybook-button--primary {
-  color: var(--color-button-primary-text, white);
-  background-color: var(--color-button-primary-bg, #0070f3);
-}
-
-.storybook-button--primary:hover:not(:disabled) {
-  background-color: var(--color-button-primary-hover, #0051a8);
-}
-
-.storybook-button--secondary {
-  color: var(--color-button-secondary-text, #333);
-  background-color: var(--color-button-secondary-bg, #eaeaea);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-}
-
-.storybook-button--secondary:hover:not(:disabled) {
-  background-color: #d4d4d4;
-}
-
-.storybook-button--sm {
-  font-size: 12px;
-  padding: calc(var(--spacing-button-padding-y, 8px) / 1.5) calc(var(--spacing-button-padding-x, 16px) / 1.5);
-}
-
-.storybook-button--md {
-  font-size: 14px;
-  padding: var(--spacing-button-padding-y, 8px) var(--spacing-button-padding-x, 16px);
-}
-
-.storybook-button--lg {
-  font-size: 16px;
-  padding: calc(var(--spacing-button-padding-y, 8px) * 1.5) calc(var(--spacing-button-padding-x, 16px) * 1.5);
+.btn-primary:hover {
+  opacity: 0.85;
 }

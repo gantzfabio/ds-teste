@@ -1,0 +1,49 @@
+PASSO 1:
+Sincronizar a branch local
+10 seg
+
+Garanta que sua máquina está com a versão mais recente do repositório 
+remoto antes de commitar:
+=========================================
+Bash
+git pull
+==========================================
+
+
+PASSO 2:
+Adicionar e commitar os novos tokens
+
+Prepare o arquivo tokens/tokens.json com a nova exportação 
+do Figma e faça o commit:
+=====================================================================
+Bash
+git add tokens/tokens.json
+git commit -m "chore(tokens): sync updated design tokens from figma"
+======================================================================
+
+
+PASSO 3:
+Enviar para o GitHub
+
+Suba o commit para acionar o gatilho da esteira:
+==================================
+Bash
+git push origin main
+==================================
+
+
+PASSO 4:
+Acompanhar o workflow e baixar o CSS gerado
+
+Acesse a aba Actions no repositório
+https://github.com/gantzfabio/ds-teste/actions
+
+Após o término da execução, volte ao terminal e puxe o CSS compilado pelo bot:
+==================================
+Bash
+git pull
+=================================
+
+Como verificar: O terminal listará o arquivo build/css/variables.css
+atualizado com as novas variáveis prontas para uso.
+
