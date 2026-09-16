@@ -1,0 +1,14 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-button-primary-bg: #0070f3;
+  --color-button-primary-hover: #0051a8;
+  --color-button-primary-text: #ffffff;
+  --color-button-secondary-bg: #eaeaea;
+  --color-button-secondary-text: #333333;
+  --spacing-button-padding-x: 16px;
+  --spacing-button-padding-y: 8px;
+  --radius-button-default: 4px;
+}
