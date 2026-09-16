@@ -3,8 +3,6 @@
  */
 
 :root {
-  --color-button-primary-bg: [object Object];
-  --color-button-primary-text: [object Object];
-  --radius-button-default: 100;
-  --spacing-button-padding-x: 16;
+  --color-button-primary-bg: #eb3225;
+  --color-button-primary-text: #ffffff;
 }
