@@ -1,0 +1,28 @@
+{
+  "color": {
+    "button": {
+      "primary": {
+        "bg": { "value": "#0070f3" },
+        "hover": { "value": "#0051a8" },
+        "text": { "value": "#ffffff" }
+      },
+      "secondary": {
+        "bg": { "value": "#eaeaea" },
+        "text": { "value": "#333333" }
+      }
+    }
+  },
+  "spacing": {
+    "button": {
+      "padding": {
+        "x": { "value": "16px" },
+        "y": { "value": "8px" }
+      }
+    }
+  },
+  "radius": {
+    "button": {
+      "default": { "value": "4px" }
+    }
+  }
+}
